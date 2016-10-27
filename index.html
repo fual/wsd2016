@@ -1,7 +1,7 @@
-v<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>WSD2016 + PiterCSS Meetup #6</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +9,8 @@ v<!DOCTYPE html>
 </head>
 <body class="shower list">
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>WSD2016 + PiterCSS Meetup #6</h1>
+		<p>Как это было</p>
 	</header>
 	<section class="slide" id="cover">
 		<img src="pictures/wsdSpb.jpg" alt="" class="cover">
@@ -60,7 +60,7 @@ v<!DOCTYPE html>
 		- !! Prerender -Асинхронная предзагрузка (атрбут as - открыть как что) - можно подгужать шрифт. Грузить шрифт на этой странице а не следующей потобразить
 		- Пререндеринг страниц
 		- Кто ссылается на ссылающие ссайты
-		- 
+		-
 		9) link rel="alternative" - где доступны (например atom) AMP
 		10) Связи rel=index , start , prev
 		11) Фавиконки. (Может быть много) Современные Манифест - файл с фавиконками (npm favicons)
@@ -73,7 +73,7 @@ v<!DOCTYPE html>
 	<section class="slide">
 		<h2>
 <a href="https://wsd.events/2016/10/01/pres/web-pokemon-go.pdf">
-		Pakemon go на веб-технологиях</a></h2>
+		Pokemon go на веб-технологиях</a></h2>
 		<ol>
 			<li>Геолоакация
 			- Geolocation (браузер возвращает координаты и время)
@@ -89,13 +89,13 @@ v<!DOCTYPE html>
 			</li>
 			<li>захват картинки
 			- Стандарт Media capture и streams
-			2 метода 
+			2 метода
 			- список устройств (промис) - тип устройства, id, описание
 			- запрос получения видео и аудио
 			C поддержкой плохо на мобильных, работает только по https
 			</li>
 		</ol>
-		Есть готовые решения A-Frame 
+		Есть готовые решения A-Frame
 		-----
 		Получаем карты, в них передаем положение и все показывается
 		-----
@@ -104,7 +104,7 @@ v<!DOCTYPE html>
 	</section>
 	<section class="slide">
 		<h2>
-			<a href="https://wsd.events/2016/10/01/pres/what-is-pwa.pdf">PWA</a><
+			<a href="https://wsd.events/2016/10/01/pres/what-is-pwa.pdf">PWA</a>
 		</h2>
 		- чувак из aviasales
 		По факту набор фич + методолгия
@@ -120,8 +120,8 @@ v<!DOCTYPE html>
 		- вкладка applications (можно смотреть манифест)
 		- service-worker
 		-- utils - sw-toolbox, gulp-service-worker
-		--- 
-	
+		---
+
 	</section>
 	<section class="slide">
 		<h2><a href="https://wsd.events/2016/10/01/pres/email-coding/">Верстка писем. Мифы</a></h2>
@@ -168,10 +168,10 @@ v<!DOCTYPE html>
 		<h2><a href="https://wsd.events/2016/10/01/pres/http2-simplicity/#cover">http2</a></h2>
 		<ul>
 			<li>Обещали 93 в итоге 30%</li>
-			<li>Только по https</li>		
-			<li>Что влияет на скорость загрузки 
+			<li>Только по https</li>
+			<li>Что влияет на скорость загрузки
 				- ширина канала
-				- сетевые задержки (можно уменьшить колличество соеденений) 
+				- сетевые задержки (можно уменьшить колличество соеденений)
 			</li>
 		</li>
 	</section>
@@ -189,10 +189,291 @@ v<!DOCTYPE html>
 	</section>
 	<section class="slide">
 		<a href="https://wsd.events/2016/10/01/pres/iframe-or-script.pdf">iframe или script</a>
-		<br/>Всеволода Шмырова 
+		<br/>Всеволода Шмырова
+	</section>
+	<section class="slide" id="intro">
+		<img src="pictures/slash.svg" alt="piter.css">
+		<h2>
+			piter.css<br/>
+			meetup_6
+		</h2>
+
+		<style>
+			#intro {
+				background-color: #0095da;
+			}
+
+			#intro img {
+				width: 100px;
+				height: auto;
+				float: left;
+				margin-right: 25px;
+			}
+
+			#intro h1,
+			#intro h2 {
+				color: #FFF;
+			}
+		</style>
+	</section>
+	<section class="slide" id="topics">
+		<h2>TL;DR</h2>
+		<ul>
+			<li>
+				<b>Рассказ про деревянную методологию</b>. Вероятно, автор
+				очередной CSS-методологии почти проникся <a href="http://bem.info">БЭМом</a>,
+				но на каком-то этапе <em>обжегся</em>.
+			</li>
+			<li>
+				<b>Демонстрация инструмента визуальной верстки</b>. Как и ожидалось,
+				демонстрирующий <em>погрузился</em> в волну критики и легких насмешек.
+			</li>
+			<li>
+				<b>Доклад про кнопки и ссылки в HTML</b>. Вадим Макеев рассказал
+				обо всех тонкостях работы с данными элементами. В докладе было
+				рассказано про кнопки и ссылки, а также их разновидности, и про
+				распространенныe ошибки при их верстке.
+			</li>
+		</ul>
+	</section>
+	<section class="slide" id="pitercss">
+		<h2>pitercss conference</h2>
+		<p>
+			Конференция состоится в июне 2017 года. Она будет иметь формат
+			большого европейского IT-события. Пока можно подписаться на
+			обновления <a href="https://pitercss.com" target="_blank">тут</a>.
+		</p>
+	</section>
+	<section class="slide" id="wood-intro">
+		<h2>Деревянная методология</h2>
+		<h3>Андрей Волынкин. Студия М18</h3>
+		<img src="pictures/bicycle.jpg" class="next place bottom right" alt="Велосипед" />
+		<style>
+			#wood-intro h3 {
+				font: 700 30px/1 PT Sans Narrow,sans-serif;
+			}
+		</style>
+	</section>
+	<section class="slide" id="wood-points">
+		<h2>Основные пункты методологии</h2>
+		<ul>
+			<li>Привязка к семантике HTML</li>
+			<li>Жесткая привязка к структуре DOM-дерева</li>
+			<li>Активное использование дочернего селектора</li>
+		</ul>
+	</section>
+	<section class="slide" id="wood-code-examples">
+		<pre>
+			<code>&lt;html&gt;</code>
+			<code>	&lt;body&gt;</code>
+			<code>		&lt;main&gt;</code>
+			<code>			&lt;header&gt;</code>
+			<code>				&lt;h1&gt;Дратути!&lt;/h1&gt;</code>
+			<code>			&lt;/header&gt;</code>
+			<code>			&lt;section&gt;</code>
+			<code>				&lt;p&gt;Здесь могла быть ваша реклама&lt;/p&gt;</code>
+			<code>			&lt;/section&gt;</code>
+			<code>...</code>
+		</pre>
+	</section>
+	<section class="slide" id="wood-structure">
+		<pre>
+			<code>_globals/</code>
+			<code>	constants.pcss</code>
+			<code>html/</code>
+			<code>	body/</code>
+			<code>		main/</code>
+			<code>			header/</code>
+			<code>				_headings/</code>
+			<code>					h1.pcss</code>
+			<code>					!h2.pcss</code>
+			<code>			&.pcss</code>
+		</pre>
+
+		<style>
+			#wood-structure pre code:before {
+				display: none;
+			}
+		</style>
+	</section>
+	<section class="slide" id="wood-structure-grouping">
+		<pre>
+			<code><mark>_globals/</mark></code>
+			<code>	constants.pcss</code>
+			<code>html/</code>
+			<code>	body/</code>
+			<code>		main/</code>
+			<code>			header/</code>
+			<code>				<mark>_headings/</mark></code>
+			<code>					h1.pcss</code>
+			<code>					!h2.pcss</code>
+			<code>			&.pcss</code>
+		</pre>
+
+		<style>
+			#wood-structure-grouping pre code:before {
+				display: none;
+			}
+		</style>
+	</section>
+	<section class="slide" id="wood-structure-child">
+		<pre>
+			<code>_globals/</code>
+			<code>	constants.pcss</code>
+			<code>html/</code>
+			<code>	body/</code>
+			<code>		main/</code>
+			<code>			header/</code>
+			<code>				_headings/</code>
+			<code>					h1.pcss</code>
+			<code>					<mark>!h2.pcss</mark></code>
+			<code>			&.pcss</code>
+		</pre>
+
+		<style>
+			#wood-structure-child pre code:before {
+				display: none;
+			}
+		</style>
+	</section>
+	<section class="slide" id="wood-structure-styles">
+		<pre>
+			<code>_globals/</code>
+			<code>	constants.pcss</code>
+			<code>html/</code>
+			<code>	body/</code>
+			<code>		main/</code>
+			<code>			header/</code>
+			<code>				_headings/</code>
+			<code>					h1.pcss</code>
+			<code>					!h2.pcss</code>
+			<code>			<mark>&.pcss</mark></code>
+		</pre>
+
+		<style>
+			#wood-structure-styles pre code:before {
+				display: none;
+			}
+		</style>
+	</section>
+	<section class="slide" id="wood-result">
+		<pre>
+			<code><span class="comment">/* constants.pcss content */</span></code>
+			<br/>
+			<code>html > body > main > header > h1 { <span class="comment">/* h1.pcss content */</span> }</code>
+			<code>html > body > main > header h2 { <span class="comment">/* !h2.pcss content */</span> }</code>
+			<code>html > body > main > header { <span class="comment">/* &.pcss content */</span> }</code>
+		</pre>
+	</section>
+	<section class="slide" id="wood-pros-cons">
+		<h2>Pros & Cons</h2>
+		<ul class="pros">
+			<li>На первый взгляд легкая для чтения структура</li>
+		</ul>
+		<ul class="cons">
+			<li>Сложное переиспользование стилей</li>
+			<li>Слишком вложенная структура</li>
+		</ul>
+
+		<style>
+			#wood-pros-cons ul.pros > li {
+				color: #0000af;
+			}
+
+			#wood-pros-cons ul.cons > li {
+				color: #cc0000;
+			}
+		</style>
+	</section>
+	<section class="slide" id="wood-links">
+		<h2>Ссылки</h2>
+		<ul>
+			<li><a href="https://pitercss.ru/6/pres/wooden-css/">Презентация методологии</a></li>
+			<li><a href="https://github.com/m18ru/nest-css">Описание методологии</a></li>
+			<li><a href="https://github.com/m18ru/gulp-css-nbd">Плагин для Gulp</a></li>
+			<li><a href="https://github.com/m18ru/postcss-closest">Плагин для PostCSS</a></li>
+		</ul>
+	</section>
+	<section class="slide" id="webflow-intro">
+		<h2>Webflow. Ноухау или конструктор?</h2>
+		<h3>Александр Меньчик. 1nsight.</h3>
+		<style>
+			#webflow-intro h3 {
+				font: 700 30px/1 PT Sans Narrow,sans-serif;
+			}
+		</style>
+	</section>
+	<section class="slide" id="webflow-video">
+		<iframe
+		width="1024"
+		height="640"
+		src="https://www.youtube.com/embed/vgjTd0dwtJk?rel=0&amp;controls=0&amp;showinfo=0"
+		frameborder="0"
+		allowfullscreen
+		class="cover"
+		></iframe>
+	</section>
+	<section class="slide grid" id="webflow-links">
+		<p>
+			<a href="https://webflow.com">Ссылка на инструмент</a>
+		</p>
+	</section>
+	<section class="slide" id="buttons-intro">
+		<h2>Жми сюда!</h2>
+		<h3>Вадим Макеев. Opera</h3>
+		<img src="pictures/button.jpg" alt="Кнопка" class="next place bottom right">
+		<style>
+			#buttons-intro h3 {
+				font: 700 30px/1 PT Sans Narrow,sans-serif;
+			}
+		</style>
+	</section>
+	<section class="slide" id="buttons-ideas">
+		<h2>Основные тезисы</h2>
+		<ul>
+			<li>Кнопка и ссылка - абсолютно разные сущности</li>
+			<li>Веб богат примерами смешивания данных сущностей</li>
+		</ul>
+	</section>
+	<section class="slide" id="buttons-scheme">
+		<img src="pictures/scheme.png" alt="Схема выбора" class="cover">
+	</section>
+	<section class="slide" id="easy-scheme">
+		<ol class="place">
+			<li class="next">Это <code>&lt;button&gt;</code></li>
+			<li class="next">Если нет, то <code>&lt;a href="…"&gt;</code></li>
+			<li class="next">Всё.</li>
+		</ol>
+		<style>
+			#easy-scheme ol {
+				white-space: nowrap;
+				font-size: 50px;
+				}
+		</style>
+	</section>
+	<section class="slide" id="buttons-captain">
+		<img src="pictures/captain.jpg" alt="Капитан" class="cover">
+	</section>
+	<section class="slide white" id="ios-touch-phone">
+		<img class="place left next" height="100%" src="pictures/ios-one.png" alt="Настройки iOS, главный список">
+		<img class="place right next" height="100%" src="pictures/ios-two.png" alt="Настройки iOS, внутренний вид">
+	</section>
+	<section class="slide" id="ios-touch-pad">
+		<img class="cover" src="pictures/ios-link.png" alt="Настройки в современной iOS">
+		<img class="cover next" src="pictures/ios-button.png" alt="Настройки в старой iOS">
+	</section>
+	<section class="slide" id="buttons-quote">
+		<blockquote class="place m quote">
+			<p>
+				Сделай-ка мне,<br>
+				чтобы по&nbsp;ссылке<br>
+				так <b>дыщ!</b><br>
+				и&nbsp;выплывало…<br>
+			</p>
+		</blockquote>
 	</section>
 	<p class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
+		<a href="https://github.com/fual/wsd2016">Fork me on GitHub</a>
 	</p>
 	<!--
 		To hide progress bar from entire presentation
